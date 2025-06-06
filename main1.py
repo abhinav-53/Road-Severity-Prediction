@@ -8,7 +8,6 @@ from sklearn.ensemble import RandomForestClassifier
 from sklearn.metrics import classification_report, confusion_matrix
 from imblearn.over_sampling import SMOTE
 
-# Load dataset
 df = pd.read_csv("Road.csv")
 
 # Drop columns with more than 40% missing values
